@@ -98,14 +98,14 @@ const Post = ({ data, pageContext }) => {
         <div className="w-6/12 float-left  md:w-6/12  pr-8 pl-8 md:pl-0 pt-8  pb-8 ">
           {prev && (
             <Link to={prev.frontmatter.path} className="float-left">
-              <img className="float-left mr-16  mb-16 md:mb-0 " src={izquierda} alt="icon" /><span className="hidden md:block">PROYECTO ANTERIOR</span>
+              <img className="float-left mr-16  mb-16 md:mb-0 " src={izquierda} alt="icon" /><span className="hidden md:block float-left">PROYECTO ANTERIOR</span>
             </Link>
           )}
         </div>
         <div className="w-6/12  md:w-6/12 pl-8 pr-8 md:pr-0 pt-8 pb-8 float-right  ">
           {next && (
             <Link to={next.frontmatter.path} className="float-right">
-              <img className="float-right ml-16  mb-16 md:mb-0" src={derecha} alt="icon" /><span className="hidden md:block">SIGUIENTE PROYECTO</span>
+              <img className="float-right ml-16  mb-16 md:mb-0" src={derecha} alt="icon" /><span className="hidden md:block float-right">SIGUIENTE PROYECTO</span>
             </Link>
           )}
         </div>
