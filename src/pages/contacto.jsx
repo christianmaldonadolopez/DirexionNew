@@ -70,13 +70,13 @@ const Contacto = center => (
             href=""
             target="_blank"
           >
-            <MapPin className="mr-4" />   Ave. Inventada #123 Col. Inventada C.P. 12345
+            <MapPin className="mr-4" />Av. Ricardo Margain 575 Parque Coroporativo Santa Engracia 66267 San Pedro Garza Garcia NL. MX
               </a>
           <a className="Contact--Details--Item  flex mt-4" href='' >
-            <Smartphone className="mr-4" /> Tel.(686) 123 4567 / Cel.(686) 123 4567
+            <Smartphone className="mr-4" /> Tel.+54(81) 1588 1504
               </a>
           <a className="Contact--Details--Item flex mt-4" href=''>
-            <Mail className="mr-4" /> info@direccion.com / contacto@direccion.com
+            <Mail className="mr-4" /> hola@direxion.com.mx
               </a>
         </div>
       </div>
